@@ -1,0 +1,35 @@
+{
+  "name": "wikipedia-mcp",
+  "version": "1.0.1",
+  "description": "Wikipedia MCP server for querying Wikipedia content",
+  "main": "dist/index.js",
+  "bin": {
+    "wikipedia-mcp": "dist/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "wikipedia",
+    "mcp",
+    "model-context-protocol",
+    "ai"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.11.4",
+    "wikipedia": "^2.1.2",
+    "zod": "^3.24.4" 
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.19",
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
