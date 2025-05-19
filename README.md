@@ -1,7 +1,3 @@
-非常抱歉误解了您的需求。我明白您需要可以直接粘贴到GitHub的README.md编辑界面中的内容。
-
-以下是纯文本格式的README内容，您可以直接复制整段文本，然后粘贴到GitHub的README.md编辑器中：
-
 # Wikipedia MCP Server
 
 A Model Context Protocol (MCP) server for Wikipedia, allowing you to interact with Wikipedia content through AI models and applications.
